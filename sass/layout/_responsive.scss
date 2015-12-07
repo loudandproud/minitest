@@ -29,15 +29,15 @@
 	}
 
 	.sky-point{
-		@include title-oswald-withlist(1.9rem,26px,9px,20px 5px);		
+		@include title-oswald-withlist($oswald-font-size,26px,9px,20px 5px);		
 	}
 
 	.sky-value-title{
-		@include title-oswald-withlist(1.9rem,30px,5px,20px 5px);		
+		@include title-oswald-withlist($oswald-font-size,30px,5px,20px 5px);		
 	}
 
 	%oswald-fontsize{
-		font-size:1.9rem;
+		font-size:$oswald-font-size;
 	}
 
 	.sky-value-values{
@@ -81,7 +81,7 @@
 
 	.sky-month-title:first-child,
 	.sky-month-value:first-child{
-		height:66px;
+		height:96px;
 	}
 }
 
@@ -111,6 +111,7 @@
 	}
 
 	.sky-month-value:first-child{
+		height:auto;
 		padding:23px 0;
 	}
 
@@ -126,6 +127,14 @@
 	    width: 31.197%;
 	}
 
+	.sky-helicopter-wrapper{
+		margin-bottom:20px;
+	}
+
+	.col-sm-8.sky-value-titles{
+		margin-top:0;
+	}
+
 	.col-sm-4.sky-value-values{
 		text-align:right;
 		margin-top:30px;
@@ -133,7 +142,7 @@
 
 	.sky-month-title,
 	.sky-month-colname{
-		font-size:1.9rem;
+		font-size:$oswald-font-size;
 	}
 
 	.sky-month-value{
@@ -141,7 +150,7 @@
 	}
 
 	.sky-month-value:first-child{
-		padding:28px 0;
+		padding:25px 0;
 	}
 
 }
@@ -175,7 +184,7 @@
 	}
 
 	.sky-helicopter-wrapper{
-		margin-bottom:30px;
+		margin-bottom:50px;
 	}
 
 }

@@ -38,14 +38,13 @@
 	font-style:italic;
 }
 
+
 /***section3***/
-.sky-helicopter-wrapper{
-	margin-bottom:10px;
-}
 
 .sky-helicopter-img{
 	width:100%;
 }
+
 
 /***section4***/
 .sky-value-details{
@@ -57,8 +56,13 @@
 	margin-bottom:0;
 }
 
+.col-sm-8.sky-value-titles{
+	margin-top:30px;
+}
+
 .sky-value-values{
 	@include title-oswald;
+	text-align:center;
 }
 
 %sky-mb-10{
@@ -78,6 +82,8 @@
 .flights-small{
 	font-size:1.6rem;
 }
+
+
 /***section5***/
 .permonth1000-wrapper{
     margin-bottom: 40px;
