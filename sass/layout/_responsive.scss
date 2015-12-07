@@ -6,21 +6,10 @@
 
 
 @media screen and (min-width: 480px){
-	section#section-1{
-		padding-top:54%;
-	}
-
-	.sky-landing-logo{
-		width:40%;
-	}
-
-	.sky-brand-slogan{
-	    width: 60%;
-	}
 
 	.sky-landing-description{
 		width:400px;
-		margin:0 auto;
+		margin:0 auto 30px;
 	}
 
 	.sky-overview{
@@ -86,9 +75,6 @@
 }
 
 @media screen and (min-width: 600px){
-	.sky-brand-slogan{
-	    width: 50%;
-	}
 
 	.permonth1000-wrapper{
 		margin-bottom:60px;
@@ -119,14 +105,6 @@
 
 
 @media screen and (min-width: 768px){
-	.sky-landing-logo{
-		width:30%;
-	}
-
-	.sky-brand-slogan{
-	    width: 31.197%;
-	}
-
 	.sky-helicopter-wrapper{
 		margin-bottom:20px;
 	}
@@ -156,9 +134,6 @@
 }
 
 @media screen and (min-width: 992px){
-	section#section-1{
-	    padding-top: 60%;
-	}
 
 	.sky-landing-description{
 		width:490px;
@@ -167,17 +142,8 @@
 
 }
 
-@media screen and (min-width: 1200px){
-	.sky-landing-logo{
-		width:21.539%;
-	}
-}
 
 @media screen and (min-width: 1400px){
-	.section#section-1{
-		padding-top: 45%;
-		padding-bottom:60px;
-	}
 
 	.sky-overview{
 		margin-bottom:60px;

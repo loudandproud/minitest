@@ -1,22 +1,38 @@
 /**section1***/
+.home-container{
+	position:static;
+}
+
 .section#section-1{
-	padding-top:44%;
-	padding-bottom:30px;
-	background-size:cover !important;
+	position:relative;
+	width:100%;
+	background:{
+		size: cover !important;
+		position:center top;
+	}
+}
+
+.sky-landing-wrapper{
+	position:absolute;
+	bottom:40px;
+    left: 0;
+    right: 0;	
 }
 
 .sky-landing-logo{
-	width:60%;
-	margin: 0 auto;
+	width:200px;
+	margin: 0 auto 10px;
 }
 
 .sky-brand-slogan{
-    width: 80%;
+    width: 300px;
     margin: 0 auto;
 }
 
 .sky-landing-description{
 	@include default-margin;
+	text-align:center;
+	margin-bottom:30px;
 }
 
 
