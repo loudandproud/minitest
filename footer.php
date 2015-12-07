@@ -26,12 +26,11 @@
 	<script>
    	function setHeight(){
 	    var windowHeight = jQuery(window).innerHeight();//get window's height
-	    console.log(windowHeight);
 	    jQuery('#section-1').css('height',windowHeight);//Set window's height to section1 height
    	}
    	setHeight();
    	jQuery(window).resize(function(){
-   			setHeight();
+   		setHeight();
    	});
 	</script>
 </body>
