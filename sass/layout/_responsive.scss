@@ -6,14 +6,176 @@
 
 
 @media screen and (min-width: 480px){
+	section#section-1{
+		padding-top:54%;
+	}
+
+	.sky-landing-logo{
+		width:40%;
+	}
+
+	.sky-brand-slogan{
+	    width: 60%;
+	}
+
+	.sky-landing-description{
+		width:400px;
+		margin:0 auto;
+	}
+
+	.sky-overview{
+		width:330px;
+		margin:0 auto 30px;
+	}
+
+	.sky-point{
+		@include title-oswald-withlist(1.9rem,26px,9px,20px 5px);		
+	}
+
+	.sky-value-title{
+		@include title-oswald-withlist(1.9rem,30px,5px,20px 5px);		
+	}
+
+	%oswald-fontsize{
+		font-size:1.9rem;
+	}
+
+	.sky-value-values{
+		@extend %oswald-fontsize;
+	}
+
+	.permonth1000{
+		width:150px;
+		@extend %oswald-fontsize;
+	}
+
+	.sky-month-colname{
+		font-size:1.6rem;
+		text-align:center;
+	}
+
+	.sky-month-value,
+	.sky-month-total{
+		text-align:center;		
+	}
+
+	.sky-month-value{
+		font-size:1.6rem;
+	}
+
+	.sky-month-total{
+		font-size:1.8rem;
+	}
+
+	.sky-calltoaction{
+		@extend %oswald-fontsize;
+	}
+
+}
+
+@media screen and (min-width: 510px){
+	.sky-month-title,
+	.sky-month-value{
+		height:66px;
+	}
+
+	.sky-month-title:first-child,
+	.sky-month-value:first-child{
+		height:66px;
+	}
 }
 
 @media screen and (min-width: 600px){
+	.sky-brand-slogan{
+	    width: 50%;
+	}
+
+	.permonth1000-wrapper{
+		margin-bottom:60px;
+	}
+
+	.sky-month-chart{
+		width:590px;
+		margin:0 auto 40px;
+	}
+
+	.sky-month-title,
+	.sky-month-title:first-child{
+		height:auto;
+		padding-bottom:0;
+	}
+
+	.sky-month-value{
+		height:auto;
+		padding:1px 0;
+	}
+
+	.sky-month-value:first-child{
+		padding:23px 0;
+	}
+
 }
 
 
 @media screen and (min-width: 768px){
+	.sky-landing-logo{
+		width:30%;
+	}
+
+	.sky-brand-slogan{
+	    width: 31.197%;
+	}
+
+	.col-sm-4.sky-value-values{
+		text-align:right;
+		margin-top:30px;
+	}
+
+	.sky-month-title,
+	.sky-month-colname{
+		font-size:1.9rem;
+	}
+
+	.sky-month-value{
+		padding:4px 0;
+	}
+
+	.sky-month-value:first-child{
+		padding:28px 0;
+	}
+
 }
 
 @media screen and (min-width: 992px){
+	section#section-1{
+	    padding-top: 60%;
+	}
+
+	.sky-landing-description{
+		width:490px;
+		font-size:1.7rem;
+	}
+
+}
+
+@media screen and (min-width: 1200px){
+	.sky-landing-logo{
+		width:21.539%;
+	}
+}
+
+@media screen and (min-width: 1400px){
+	.section#section-1{
+		padding-top: 45%;
+		padding-bottom:60px;
+	}
+
+	.sky-overview{
+		margin-bottom:60px;
+	}
+
+	.sky-helicopter-wrapper{
+		margin-bottom:30px;
+	}
+
 }

@@ -1,0 +1,160 @@
+/**section1***/
+.section#section-1{
+	padding-top:44%;
+	padding-bottom:30px;
+	background-size:cover !important;
+}
+
+.sky-landing-logo{
+	width:60%;
+	margin: 0 auto;
+}
+
+.sky-brand-slogan{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sky-landing-description{
+	@include default-margin;
+}
+
+
+/***section2***/
+%sky-mb-30{
+	margin-bottom:30px;
+}
+
+.sky-overview{
+	@extend %sky-mb-30;
+}
+
+.sky-point{
+	@include title-oswald-withlist;
+	font-weight:100;
+}
+
+.flights-italic{
+	font-style:italic;
+}
+
+/***section3***/
+.sky-helicopter-wrapper{
+	margin-bottom:10px;
+}
+
+.sky-helicopter-img{
+	width:100%;
+}
+
+/***section4***/
+.sky-value-details{
+	@extend %sky-mb-30;
+}
+
+.col-sm-8.sky-value-titles,
+.col-sm-4.sky-value-values{
+	margin-bottom:0;
+}
+
+.sky-value-values{
+	@include title-oswald;
+}
+
+%sky-mb-10{
+	margin-bottom:10px;
+}
+
+.sky-value-title{
+	@include title-oswald-withlist(1.6rem,13px,5px);
+	@extend %sky-mb-10;
+}
+
+.sky-value-desctiption{
+	@extend %sky-mb-10;
+	text-align:left;
+}
+
+.flights-small{
+	font-size:1.6rem;
+}
+/***section5***/
+.permonth1000-wrapper{
+    margin-bottom: 40px;
+    border-bottom: 1px solid $base-line-color;
+}
+
+.permonth1000{
+	@include title-oswald;
+	position:relative;
+	top:15px;
+	background-color:#fff;
+	width:125px;
+	margin:0 auto;
+	padding:3px;
+	border:1px solid $base-line-color;
+}
+
+.sky-month-chart > .row{
+	margin-top:0;
+}
+
+.col-xs-6.sky-month-title,
+.col-xs-3.sky-month-value{
+	margin-bottom:0;
+}
+
+.col-xs-3.sky-month-colname{
+	@extend %sky-mb-10;
+}
+
+.sky-month-colname{
+	@include title-oswald(1.4rem);
+	font-weight: 100;
+}
+
+.sky-month-titles,
+.sky-month-values{
+	border-right:1px solid $base-line-color;
+}
+
+.sky-month-title{
+	@include title-oswald;
+	position:relative;
+	text-align:left;
+	font-weight:100;
+	height:66px;
+}
+
+.sky-month-value{
+	font-size:1.4rem;
+	height:66px;
+}
+
+.sky-month-title:first-child,
+.sky-month-value:first-child{
+	height:150px;
+}
+
+.sky-month-title:last-child{
+	padding-bottom:0;
+}
+
+/***footer***/
+footer{
+	background-color:$base-blue-color;
+	text-align:center;
+	padding-top:20px;
+}
+
+footer a{
+	color:#fff;
+	&:hover{
+		color:#fff;
+	}
+}
+
+.sky-calltoaction{
+	@include title-oswald;
+	text-transform:none;
+}

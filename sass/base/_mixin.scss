@@ -26,3 +26,28 @@
 	@include sprite-height($sprite,$scale);
 	@include sprite-size($sprite,$scale);
 }
+
+//Layout
+@mixin default-margin{
+	margin-right:15px;
+	margin-left:15px;
+}
+
+@mixin title-oswald($fs:1.6rem){
+	font-family:$title-font-family;
+	text-transform:uppercase;
+	font-size:$fs;
+}
+
+@mixin title-oswald-withlist($fs:1.6rem,$pdl:13px,$bgp:9px,$bgs:10px 4px){
+	@include title-oswald($fs);
+	padding-left:$pdl;
+	text-align:left;
+	background:{
+		image:url(#{$imagepath}icon-list.png);
+		position:left $bgp;
+		repeat:no-repeat;
+		size:$bgs;
+
+	}
+}
